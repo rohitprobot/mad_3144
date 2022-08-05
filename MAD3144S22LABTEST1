@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+
+<table style="width:100%">
+  <tr>
+    <th><h1>RABBIT</h1></th>
+    <th><h2>BETTLE</h2></th>
+    <th><h3>COW</h3></th>
+  </tr>
+  <tr>
+    <td><img src="https://i.ytimg.com/vi/zecueq-mo4M/maxresdefault.jpg" alt="Trulli" width="200" height="200"></td>
+    <td><img src="https://i.ytimg.com/vi/zecueq-mo4M/maxresdefault.jpg" alt="Trulli" width="200" height="200"></td>
+    <td><img src="https://i.ytimg.com/vi/zecueq-mo4M/maxresdefault.jpg" alt="Trulli" width="200" height="200"></td>
+  </tr>
+  <tr>
+    <td><p>The rabbit is a domestic animal. But they are also found in the forest. Rabbits dig burrow into the ground and live there.</p></td>
+    <td><p>Rabbits usually graze into grass fields, and to hide from their predators, they go to their dug burrow.
+
+They are popularly called ‘Bunny.’</p></td>
+    <td><p>Its body is oval-shaped, having a neck and head on it.</p></td>
+    <td><p>He has four legs, of which two are small, and two are big helps him in the running fast.</p></td>
+    <td><p>The rabbit is a domestic animal. But they are also found in the forest.
+
+A male rabbit is called “Buck,” and the female rabbit is called “Doe.”
+
+The young rabbit is known as “Kit.”</p></td>
+  </tr>
+</table>
+
+ <script>
+        var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg'); 
+        svg.width = 50;
+        svg.height  =  50;
+        var img = new Image();
+        img.src = 'https://i.ytimg.com/vi/zecueq-mo4M/maxresdefault.jpg'; 
+        document.body.appendChild(img);
+
+        </script>
+
+</body>
+</html>
+
